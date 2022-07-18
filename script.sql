@@ -51,6 +51,21 @@ CREATE TABLE IF NOT EXISTS `cleaners_management`.`house_owner` (
   PRIMARY KEY (`id`))
 ENGINE = InnoDB;
 
+-- -----------------------------------------------------
+-- Inserts `cleaners_management`.`house_owner`
+-- -----------------------------------------------------
+INSERT INTO `cleaners_management`.`house_owner`(`name`,`cpf`)VALUES('Proprietario 1','1111114785');
+INSERT INTO `cleaners_management`.`house_owner`(`name`,`cpf`)VALUES('Proprietario 2','2222224785');
+INSERT INTO `cleaners_management`.`house_owner`(`name`,`cpf`)VALUES('Proprietario 2','3333334785');
+INSERT INTO `cleaners_management`.`house_owner`(`name`,`cpf`)VALUES('Proprietario 3','4444444785');
+INSERT INTO `cleaners_management`.`house_owner`(`name`,`cpf`)VALUES('Proprietario 4','5555554785');
+INSERT INTO `cleaners_management`.`house_owner`(`name`,`cpf`)VALUES('Proprietario 5','6666664785');
+INSERT INTO `cleaners_management`.`house_owner`(`name`,`cpf`)VALUES('Proprietario 6','7777774785');
+INSERT INTO `cleaners_management`.`house_owner`(`name`,`cpf`)VALUES('Proprietario 7','8888884785');
+INSERT INTO `cleaners_management`.`house_owner`(`name`,`cpf`)VALUES('Proprietario 8','99999994785');
+INSERT INTO `cleaners_management`.`house_owner`(`name`,`cpf`)VALUES('Proprietario 9','10101104785');
+INSERT INTO `cleaners_management`.`house_owner`(`name`,`cpf`)VALUES('Proprietario 10','1112114785');
+
 
 -- -----------------------------------------------------
 -- Table `cleaners_management`.`house`
