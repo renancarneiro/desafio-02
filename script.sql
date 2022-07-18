@@ -27,6 +27,19 @@ CREATE TABLE IF NOT EXISTS `cleaners_management`.`cleaner` (
   PRIMARY KEY (`id`))
 ENGINE = InnoDB;
 
+-- -----------------------------------------------------
+-- Inserts `cleaners_management`.`cleaner`
+-- -----------------------------------------------------
+INSERT INTO `cleaners_management`.`cleaner`(`name`,`cpf`)VALUES('Maria costa','02328865475');
+INSERT INTO `cleaners_management`.`cleaner`(`name`,`cpf`)VALUES('Jhullia costa','3123213123');
+INSERT INTO `cleaners_management`.`cleaner`(`name`,`cpf`)VALUES('Thamiris costa','23333233111');
+INSERT INTO `cleaners_management`.`cleaner`(`name`,`cpf`)VALUES('Yasmin costa','33342564653');
+INSERT INTO `cleaners_management`.`cleaner`(`name`,`cpf`)VALUES('Leonardo costa','346677888898');
+INSERT INTO `cleaners_management`.`cleaner`(`name`,`cpf`)VALUES('Ricardo costa','458978798');
+INSERT INTO `cleaners_management`.`cleaner`(`name`,`cpf`)VALUES('Renan costa','951445456');
+INSERT INTO `cleaners_management`.`cleaner`(`name`,`cpf`)VALUES('Juliane costa','1111222777');
+INSERT INTO `cleaners_management`.`cleaner`(`name`,`cpf`)VALUES('Carlos costa','3333675845');
+INSERT INTO `cleaners_management`.`cleaner`(`name`,`cpf`)VALUES('Raimundo costa','7584895563');
 
 -- -----------------------------------------------------
 -- Table `cleaners_management`.`house_owner`
