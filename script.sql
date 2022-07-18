@@ -125,6 +125,19 @@ CREATE TABLE IF NOT EXISTS `cleaners_management`.`cleaning_schedule` (
     ON UPDATE NO ACTION)
 ENGINE = InnoDB;
 
+-- -----------------------------------------------------
+-- Inserts `cleaners_management`.`cleaning_schedule`
+-- -----------------------------------------------------
+INSERT INTO `cleaners_management`.`cleaning_schedule`(`cleaner_id`,`house_id`,`date_cleaning`)VALUES(100000,1,'2022-08-01');
+INSERT INTO `cleaners_management`.`cleaning_schedule`(`cleaner_id`,`house_id`,`date_cleaning`)VALUES(100001,2,'2022-07-01');
+INSERT INTO `cleaners_management`.`cleaning_schedule`(`cleaner_id`,`house_id`,`date_cleaning`)VALUES(100002,3,'2022-10-01');
+INSERT INTO `cleaners_management`.`cleaning_schedule`(`cleaner_id`,`house_id`,`date_cleaning`)VALUES(100003,4,'2022-10-10');
+INSERT INTO `cleaners_management`.`cleaning_schedule`(`cleaner_id`,`house_id`,`date_cleaning`)VALUES(100004,5,'2022-08-11');
+INSERT INTO `cleaners_management`.`cleaning_schedule`(`cleaner_id`,`house_id`,`date_cleaning`)VALUES(100005,6,'2022-08-29');
+INSERT INTO `cleaners_management`.`cleaning_schedule`(`cleaner_id`,`house_id`,`date_cleaning`)VALUES(100006,7,'2022-09-18');
+INSERT INTO `cleaners_management`.`cleaning_schedule`(`cleaner_id`,`house_id`,`date_cleaning`)VALUES(100007,8,'2022-08-13');
+INSERT INTO `cleaners_management`.`cleaning_schedule`(`cleaner_id`,`house_id`,`date_cleaning`)VALUES(100008,9,'2022-08-14');
+INSERT INTO `cleaners_management`.`cleaning_schedule`(`cleaner_id`,`house_id`,`date_cleaning`)VALUES(100009,10,'2022-08-17');
 
 -- -----------------------------------------------------
 -- Table `cleaners_management`.`feedback_cleaning_service`
