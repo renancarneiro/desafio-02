@@ -159,6 +159,19 @@ CREATE TABLE IF NOT EXISTS `cleaners_management`.`feedback_cleaning_service` (
     ON UPDATE NO ACTION)
 ENGINE = InnoDB;
 
+-- -----------------------------------------------------
+-- Inserts `cleaners_management`.`feedback_cleaning_service`
+-- -----------------------------------------------------
+INSERT INTO `cleaners_management`.`feedback_cleaning_service`(`finished_cleaning`,`payment`,`feedback`,`cleaning_schedule_id`,`cleaning_schedule_cleaner_id`,`cleaning_schedule_house_id`)VALUES(0,200.00,'Muito bom, gostei muito do serviço prestado',1,100000,1);
+INSERT INTO `cleaners_management`.`feedback_cleaning_service`(`finished_cleaning`,`payment`,`feedback`,`cleaning_schedule_id`,`cleaning_schedule_cleaner_id`,`cleaning_schedule_house_id`)VALUES(1,300.00,'Muito bom, gostei muito do serviço prestado',2,100001,2);
+INSERT INTO `cleaners_management`.`feedback_cleaning_service`(`finished_cleaning`,`payment`,`feedback`,`cleaning_schedule_id`,`cleaning_schedule_cleaner_id`,`cleaning_schedule_house_id`)VALUES(1,100.00,'Muito bom, gostei muito do serviço prestado',3,100002,3);
+INSERT INTO `cleaners_management`.`feedback_cleaning_service`(`finished_cleaning`,`payment`,`feedback`,`cleaning_schedule_id`,`cleaning_schedule_cleaner_id`,`cleaning_schedule_house_id`)VALUES(0,200.00,'Muito bom, gostei muito do serviço prestado',4,100003,4);
+INSERT INTO `cleaners_management`.`feedback_cleaning_service`(`finished_cleaning`,`payment`,`feedback`,`cleaning_schedule_id`,`cleaning_schedule_cleaner_id`,`cleaning_schedule_house_id`)VALUES(1,300.00,'Muito bom, gostei muito do serviço prestado',5,100004,5);
+INSERT INTO `cleaners_management`.`feedback_cleaning_service`(`finished_cleaning`,`payment`,`feedback`,`cleaning_schedule_id`,`cleaning_schedule_cleaner_id`,`cleaning_schedule_house_id`)VALUES(1,200.00,'Muito bom, gostei muito do serviço prestado',6,100005,6);
+INSERT INTO `cleaners_management`.`feedback_cleaning_service`(`finished_cleaning`,`payment`,`feedback`,`cleaning_schedule_id`,`cleaning_schedule_cleaner_id`,`cleaning_schedule_house_id`)VALUES(1,300.00,'Muito bom, gostei muito do serviço prestado',7,100006,7);
+INSERT INTO `cleaners_management`.`feedback_cleaning_service`(`finished_cleaning`,`payment`,`feedback`,`cleaning_schedule_id`,`cleaning_schedule_cleaner_id`,`cleaning_schedule_house_id`)VALUES(0,300.00,'Muito bom, gostei muito do serviço prestado',8,100007,8);
+INSERT INTO `cleaners_management`.`feedback_cleaning_service`(`finished_cleaning`,`payment`,`feedback`,`cleaning_schedule_id`,`cleaning_schedule_cleaner_id`,`cleaning_schedule_house_id`)VALUES(1,100.00,'Muito bom, gostei muito do serviço prestado',9,100008,9);
+INSERT INTO `cleaners_management`.`feedback_cleaning_service`(`finished_cleaning`,`payment`,`feedback`,`cleaning_schedule_id`,`cleaning_schedule_cleaner_id`,`cleaning_schedule_house_id`)VALUES(0,100.00,'Muito bom, gostei muito do serviço prestado',10,100009,10);
 
 SET SQL_MODE=@OLD_SQL_MODE;
 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS;
