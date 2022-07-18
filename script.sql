@@ -88,6 +88,19 @@ CREATE TABLE IF NOT EXISTS `cleaners_management`.`house` (
     ON UPDATE NO ACTION)
 ENGINE = InnoDB;
 
+-- -----------------------------------------------------
+-- Inserts `cleaners_management`.`house`
+-- -----------------------------------------------------
+INSERT INTO `cleaners_management`.`house`(`city`,`neighborhood`,`street`,`number`,`additional_address`,`type`,`house_owner_id`)VALUES('Belém','Condor','Vila 1',66,'esquina','small',1);
+INSERT INTO `cleaners_management`.`house`(`city`,`neighborhood`,`street`,`number`,`additional_address`,`type`,`house_owner_id`)VALUES('Belém','Jurunas','Vila 2',77,'esquina','average',2);
+INSERT INTO `cleaners_management`.`house`(`city`,`neighborhood`,`street`,`number`,`additional_address`,`type`,`house_owner_id`)VALUES('Belém','Guama','Vila 3',88,'esquina','large',1);
+INSERT INTO `cleaners_management`.`house`(`city`,`neighborhood`,`street`,`number`,`additional_address`,`type`,`house_owner_id`)VALUES('Belém','Cremacao','Vila 4',99,'esquina','small',3);
+INSERT INTO `cleaners_management`.`house`(`city`,`neighborhood`,`street`,`number`,`additional_address`,`type`,`house_owner_id`)VALUES('Belém','Curio','Vila 5',1010,'esquina','large',4);
+INSERT INTO `cleaners_management`.`house`(`city`,`neighborhood`,`street`,`number`,`additional_address`,`type`,`house_owner_id`)VALUES('Belém','Satélite','Vila 6',1111,'esquina','average',5);
+INSERT INTO `cleaners_management`.`house`(`city`,`neighborhood`,`street`,`number`,`additional_address`,`type`,`house_owner_id`)VALUES('Belém','Perimetral','Vila 7',1212,'esquina','large',6);
+INSERT INTO `cleaners_management`.`house`(`city`,`neighborhood`,`street`,`number`,`additional_address`,`type`,`house_owner_id`)VALUES('Belém','Condor','Vila 8',1313,'esquina','large',6);
+INSERT INTO `cleaners_management`.`house`(`city`,`neighborhood`,`street`,`number`,`additional_address`,`type`,`house_owner_id`)VALUES('Belém','Cremacao','Vila 9',1414,'esquina','small',1);
+INSERT INTO `cleaners_management`.`house`(`city`,`neighborhood`,`street`,`number`,`additional_address`,`type`,`house_owner_id`)VALUES('Belém','Satélite','Vila 10',1515,'esquina','small',10);
 
 -- -----------------------------------------------------
 -- Table `cleaners_management`.`cleaning_schedule`
