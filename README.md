@@ -1,7 +1,7 @@
 
 ## 👨🏼‍💻 Author
 
-- [@renancarneiro](https://www.github.com/renancarneiro)
+- [@renancarneiro](https://www.linkedin.com/in/renancc)
 
 ## 🚀 Technology
 
@@ -96,4 +96,3 @@ If you are trying to connect to your local database server and it might not have
 | cleaning_schedule_id       | identificador do agendamento |
 | cleaning_schedule_cleaner       | identificador da diarista |
 | cleaning_schedule_house       | identificador da residência
- |
